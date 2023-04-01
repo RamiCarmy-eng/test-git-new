@@ -1,0 +1,31 @@
+working directory -> stagging area     -> local repository -> remote repository
+test-project      -> git add filename  -> git commit       -> git push
+git status           git status
+git add ---------->|
+git diff-----------|
+                   |--git commit------>|
+ |<--git checkout--|
+                                                             |---git log
+                                                             |---git log -oneline
+                                                             |---git show
+                                                             |---git sjhow commitID / HEAD~Number
+                                       |git reset -soft HEAD^|   
+|---git reset HEAD^<-----------------------------------------| 
+|---git reset --hard HEAD^<----------------------------------|
+|---git log <------------------------------------------------|                                        
+git init
+tracked
+untracked
+change control
+moving from working to stagging area
+git add filname
+git add . #to all files in dir.
+
+
+                        version control
+                        moving from stagging area to local rep.
+                        git commit -m "explnation"
+                                                            moving back from local rep. to stagging area
+                                                            git reset --hard HEAD^
+
+
